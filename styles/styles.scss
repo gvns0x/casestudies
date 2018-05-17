@@ -1,0 +1,167 @@
+/* === VARIABLES === */
+
+/* Colors */
+
+$color-main: #3F3F3F;
+$color-white: #FFF;
+$color-black: rgba(0,0,0,1);
+$color-dark: rgba(0, 0, 0, 0.87);
+$color-dark2: rgba(0,0,0,0.4);
+$color-light: rgba(255, 255, 255, 0.87);
+$color-light2: rgba(255,255,255,0.45);
+$color-grey1: #F6F6F6;
+$color-grey2: #E4E4E4;
+$color-quote: red;
+/* Fonts */
+
+$font-title: 'Open Sans Condensed', sans-serif;
+$font-body: 'Frank Ruhl Libre', serif;
+/* -------------- */
+
+* {
+    margin: 0;
+}
+
+/* === TEXT === */
+
+/* Text Colors */
+
+.title--dark {
+    color: $color-black;
+}
+
+.title--light {
+    color: $color-light;
+}
+
+.body-text--dark {
+    color: $color-dark;
+}
+
+.body-text--light {
+    color: $color-light;
+}
+
+.label--dark {
+    color: $color-dark2;
+}
+
+.label--light {
+    color: $color-light2;
+}
+
+.quote-text--color {
+    color: $color-quote;
+}
+
+/* Type */
+
+.label-text {
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.label-title {
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.body-text {
+    font-size: 16px;
+    font-family: $font-body;
+    line-height: 150%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: $font-title;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: $font-title;
+    font-size: 22px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: $font-body;
+}
+
+.quote-text {
+    font-size: 18px;
+    font-family: $font-body;
+    line-height: 150%;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.quote-person {
+    font-size: 14px;
+    font-family: $font-body;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.block-title {
+    padding: 56px 24px;
+    background-color: $color-main;
+}
+
+.block-product {
+    padding: 32px 24px;
+    background-color: $color-white;
+}
+
+.block-text {
+    padding: 56px 24px; 
+}
+
+.block-subtitle {
+    padding: 56px 24px;
+    background-color: $color-white;
+}
+
+.block-quote {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-grey1;
+
+    .divider {
+        height: 1px;
+        width: 72px;
+        background-color: rgba(0,0,0,0.1);
+
+        &:nth-child(1) {
+            margin-bottom: 24px;
+        }
+
+        &:nth-child(4) {
+            margin-top: 24px;
+        }
+    }
+}

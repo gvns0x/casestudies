@@ -1,0 +1,146 @@
+/* === VARIABLES === */
+/* Colors */
+/* Fonts */
+/* -------------- */
+* {
+  margin: 0;
+}
+
+/* === TEXT === */
+/* Text Colors */
+.title--dark {
+  color: black;
+}
+
+.title--light {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.body-text--dark {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.body-text--light {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.label--dark {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.label--light {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.quote-text--color {
+  color: red;
+}
+
+/* Type */
+.label-text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.label-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.body-text {
+  font-size: 16px;
+  font-family: "Frank Ruhl Libre", serif;
+  line-height: 150%;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 18px;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.quote-text {
+  font-size: 18px;
+  font-family: "Frank Ruhl Libre", serif;
+  line-height: 150%;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.quote-person {
+  font-size: 14px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.block-title {
+  padding: 56px 24px;
+  background-color: #3F3F3F;
+}
+
+.block-product {
+  padding: 32px 24px;
+  background-color: #FFF;
+}
+
+.block-text {
+  padding: 56px 24px;
+}
+
+.block-subtitle {
+  padding: 56px 24px;
+  background-color: #FFF;
+}
+
+.block-quote {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.block-quote .divider {
+  height: 1px;
+  width: 72px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.block-quote .divider:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+.block-quote .divider:nth-child(4) {
+  margin-top: 24px;
+}
