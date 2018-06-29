@@ -104,6 +104,7 @@ h3 {
   text-align: center;
 }
 
+/* --------- */
 .block-title {
   padding: 56px 24px;
   background-color: #3F3F3F;
@@ -121,6 +122,7 @@ h3 {
 .block-subtitle {
   padding: 56px 24px;
   background-color: #FFF;
+  margin-bottom: 56px;
 }
 
 .block-quote {
